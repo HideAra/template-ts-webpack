@@ -1,0 +1,24 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+    },
+    "editor.tabSize": 2,
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 2,
+    "prettier.semi": true,
+    "stylelint.stylelintPath": "node_modules/stylelint",
+    "stylelint.validate": [
+        "css",
+        "scss"
+    ],
+    "scss.validate": false,
+    "css.validate": false,
+    "stylelint.config": {
+        "ignoreFiles": [
+            "/dist/*",
+            "/src/css/reset.css"
+        ]
+    },
+}

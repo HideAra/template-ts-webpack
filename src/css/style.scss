@@ -1,0 +1,29 @@
+@import "base";
+@import "grid";
+
+@font-face {
+  font-family: MyFont;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/Rock3D-Regular.ttf") format("truetype");
+}
+
+div.bg1 {
+  width: 1000px;
+  height: 500px;
+  font-family: MyFont, sans-serif; /* 上記で設定したフォントを指定 */
+  font-size: 60px;
+  color: yellow;
+  text-align: center;
+  background-image: url("../assets/images/sample.png");
+  background-repeat: no-repeat;
+}
+
+/* Sass 変数で色と背景色を定義 */
+$color: blue;
+$bgcolor: pink;
+
+p {
+  color: $color;
+  background-color: $bgcolor;
+}
